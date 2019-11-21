@@ -1,5 +1,4 @@
 const utils = require('./utils');
-const matrix = require('./matrix');
 
 let matrix1 = [['A', 'B', 'C'],
   ['D', 'E', 'F'],
@@ -15,4 +14,4 @@ let matrix3 = [[7, 6, 3],
   [9, 4, 1]];
 
 console.log(utils.multiplyMatrixes(matrix2, matrix3));
-console.log(matrix.printMat(matrix1));
+console.log(utils.printMat(matrix1));
